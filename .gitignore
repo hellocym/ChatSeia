@@ -175,3 +175,8 @@ cython_debug/
 
 *.txt
 *.json
+micromamba.tar.bz2
+micromamba.exe
+info/*
+unsloth_compiled_cache/*
+data/*
