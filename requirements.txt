@@ -1,7 +1,1 @@
-requests>=2.32.3
-lightrag-hku>=1.2.6
-browser-use>=0.1.40
-pandas>=2.2.3
-pipmaster>=0.5.1
-future
-textract
+ncatbot -i https://mirrors.aliyun.com/pypi/simple

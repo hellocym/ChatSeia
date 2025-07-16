@@ -181,3 +181,4 @@ info/*
 unsloth_compiled_cache/*
 data/*
 .env
+napcat
