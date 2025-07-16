@@ -54,6 +54,8 @@ async def on_at_message(msg: GroupMessage):
         response = group_llm.chat(all_texts)
         if "<think>" in response:
             think, response = response.split("<think>")[1].split("</think>")[:2]
+            # 删除首尾空行
+            response = response.strip()
             _log.info(f"思考: {think}")
         _log.info(f"回复: {response}")
         
